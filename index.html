@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
     <link rel="stylesheet" href="adaptiveAboutTheater.css">
+    <style>
+        .program{
+            cursor: pointer;
+        }
+    </style>
     <title>Театр драмы</title>
 </head>
 <body>
@@ -13,134 +18,156 @@
         <header>
             <div class="blockText">
                 <p class="captionText">театр</p> 
-                 <p class="whiteText">драмы</p> 
+                <p class="whiteText">драмы</p> 
                 <p class="captionText"> кузбасса</p>
             </div>
             <div class="blockPushk">
                 <img src="Pushkin4.png" alt="Пушкинская карта" class="graficLogo">
             </div>   
         </header>
+
         <nav>
-            <div class="blockMenu" id="menuNav">  
-                <a href="afisha.html"><p class="captionText">афиша</p></a>
-                <a href="faceoftheater.html"><p class="captionText">лица</p></a>
-                <a href="abouttheater.html"><p class="captionText">о театре</p></a>
-                <a id="menu" href="#" class="icon">&#9776;</a>
+            <ul>
+            <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="labelLine">
+                <img src="menu.png" alt="" class="line">
+                </label>
+            <div class="blockMenu">  
+                <li><a href="afisha.html"><p class="captionText">афиша</p></a></li>
+                <li> <a href="faceoftheater.html"><p class="captionText">лица</p></a></li>
+                <li><a href="abouttheater.html"><p class="captionText">о театре</p></a></li>
+                </ul>
            </div> 
         </nav>
-
-        <div class="blockSlider">
-            <div class="slide slideJs">
-                <img src="Шапки_940х406.jpg" alt="">
-                <img src="С-Круз_940х406.jpg" alt="">
-                <img src="Жизель_940х406.jpg" alt="">
-                <img src="904x406_Пасха.jpg" alt="">
-            </div> 
+            <div class="blockSlider">
+                <div class="slide slideJs">
+                    <img src="Шапки_940х406.jpg" alt="">
+                    <img src="С-Круз_940х406.jpg" alt="">
+                    <img src="Жизель_940х406.jpg" alt="">
+                    <img src="904x406_Пасха.jpg" alt="">
+                </div>
+            </div>
             <div class="arrow">
             <button class="btn1">
                 <img src="arrow left2.png" alt="">
             </button>
             <button class="btn2">
                 <img src="arrow right2.png" alt="">
-            </button></div>
-        </div>
-
+            </button>
+            </div>
         <div class="blockProgram">
             <div class="lineProgram">
                 <p class="captionText" >Ближайшие спектакли</p>
             </div>
-            <div class="program">
+            <div class="program" onclick="location.href='afisha.html#16_05_lec'">
+                <div class="dateImage">
                     <div class="date">
-                        <p class="number">02</p>
+                        <p class="number">16</p>
                         <p class="mounth">мая</p>
                         <p class="week">вт</p>
                     </div>
                     <div class="image">
-                        <a href="ticket.html"><img src="230х154_жених.jpg" alt="Жениха вызывали..."></a>
+                            <img src="Лекарь_230х154.jpg" alt="Лекарь поневоле">
                     </div>
+                </div>
                     <div class="aboutSpect">
-                        <a href="ticket.html"><p class="nameSpect">ЖЕНИХА ВЫЗЫВАЛИ...</p>
-                        <p class="aboutSpect">Жили вместе две сестры, когда-то работали в театре, 
-                            старшая - заслуженная артистка, младшая - костюмер при ней. Впрочем, и в настоящей 
-                            жизни роли не изменились...</p></a>
+                        <p class="nameSpect">ЛЕКАРЬ ПОНЕВОЛЕ</p>
+                        <p class="aboutSpect">Работа, созданная в традициях площадного народного театра - комедия дель арте, 
+                            пантомима, музыкально-танцевальные номера, цирк и даже кукольные представления.</p>
                     </div>
             </div>
-            <div class="program">
+            <div class="program" onclick="location.href='afisha.html#17_05_sant'">
+                <div class="dateImage">
                     <div class="date">
-                        <p class="number">03</p>
+                        <p class="number">17</p>
                         <p class="mounth">мая</p>
                         <p class="week">ср</p>
                     </div>
                     <div class="image">
-                        <a href="ticket.html"><img src="зт_230х154.jpg" alt="Золотой теленок"></a>
+                            <img src="Kruz_230х154.jpg" alt="САНТА КРУС">
                     </div>
+                </div>
                     <div class="aboutSpect">
-                        <a href="ticket.html"><p class="nameSpect">ЗОЛОТОЙ ТЕЛЕНОК</p>
-                        <p class="aboutSpect">История последнего гуманиста и романтика в мире, 
-                            который не терпит свободных художников, поэтов и авантюристов.</p></a>
+                            <p class="nameSpect">САНТА КРУС</p>
+                        <p class="aboutSpect">Спектакль о том, что в этой жизни для нас по-настоящему важно.</p>
                     </div>
             </div>
-            <div class="program">
+            <div class="program" onclick="location.href='afisha.html#18_05_bum'">
+                <div class="dateImage">
                     <div class="date">
-                        <p class="number">05</p>
+                        <p class="number">18</p>
                         <p class="mounth">мая</p>
-                        <p class="week">пт</p>
+                        <p class="week">чт</p>
                     </div>
                     <div class="image">
-                        <a href="ticket.html"><img src="Kruz_230х154.jpg" alt="Санта Крус"></a>
+                    <img src="230х154__Гришковец_01.jpg" alt="ПРОЩАНИЕ С БУМАГОЙ">
                     </div>
+                </div>
                     <div class="aboutSpect">
-                        <a href="ticket.html"><p class="nameSpect">САНТА КРУС</p>
-                        <p class="aboutSpect">Спектакль о том, что в этой жизни для 
-                            нас по-настоящему важно.</p></a>
+                       <p class="nameSpect">ПРОЩАНИЕ С БУМАГОЙ</p>
+                        <p class="aboutSpect">«Спектакль посвящен прощанию человечества с бумагой как с образом жизни — тому, как уходят
+                             из жизни бумажные книги, газеты, карты и письма, а также связанные с ними ощущения и эмоции».</p>
                     </div>
             </div>
-            <div class="program">
+            <div class="program" onclick="location.href='afisha.html#19_05_bulv'">
+                <div class="dateImage">
                 <div class="date">
-                    <p class="number">06</p>
+                    <p class="number">19</p>
+                    <p class="mounth">мая</p>
+                    <p class="week">пт</p>
+                </div>
+                <div class="image">
+                        <img src="230х154_Бульвар.jpg" alt="Бульвар надежд в осенних листьях">
+                </div>
+            </div>
+                <div class="aboutSpect">
+                        <p class="nameSpect">Бульвар надежд в осенних листьях</p>
+                    <p class="aboutSpect">Сюжет, основанный на событиях, произошедших в этом городе, тем не менее типичен 
+                        для большинства таких же постиндустриальных городов страны.</p>
+                </div>
+            </div>
+            <div class="program" onclick="location.href='afisha.html#20_05_vesi'">
+                <div class="dateImage">
+                <div class="date">
+                    <p class="number">20</p>
                     <p class="mounth">мая</p>
                     <p class="week">сб</p>
                 </div>
                 <div class="image">
-                    <a href="ticket.html"><img src="Лекарь_230х154.jpg" alt="Лекарь поневоле"></a>
-                </div>
-                <div class="aboutSpect">
-                    <a href="ticket.html"><p class="nameSpect">ЛЕКАРЬ ПОНЕВОЛЕ</p>
-                    <p class="aboutSpect">Работа, созданная в традициях площадного народного 
-                        театра - комедия дель арте, пантомима, музыкально-танцевальные номера, 
-                        цирк и даже кукольные представления.</p></a>
+                        <img src="230x154vesi_2.jpg" alt="ВЕСЫ">
                 </div>
             </div>
-            <div class="program">
+                <div class="aboutSpect">
+                        <p class="nameSpect">ВЕСЫ</p>
+                    <p class="aboutSpect">Это пьеса о мужчинах, объединенных общим страхом и общим волнением – на протяжении ночи они ждут рождения 
+                        своих детей, каждый из них гадает, каким будет их завтрашний день и мир.</p>
+                </div>
+            </div>
+            <div class="program" onclick="location.href='afisha.html#20_05_tsevt'">
+                <div class="dateImage">
                 <div class="date">
-                    <p class="number">07</p>
+                    <p class="number">20</p>
                     <p class="mounth">мая</p>
-                    <p class="week">вс</p>
+                    <p class="week">сб</p>
                 </div>
                 <div class="image">
-                    <a href="ticket.html"><img src="shikarnai_svadba.jpg" alt="Шикарная свадьба"></a>
-                </div>
-                <div class="aboutSpect">
-                    <a href="ticket.html"><p class="nameSpect">ШИКАРНАЯ СВАДЬБА</p>
-                    <p class="aboutSpect">Утро после мальчишника. Номер для новобрачных. 
-                        На кровати двое – жених и… совершенно незнакомая ему девушка!</p></a>
+                        <img src="Цветаева_230х154.jpg" alt="ЦВЕТАЕВА">
                 </div>
             </div>
-            <div class="program">
-                <div class="date">
-                    <p class="number">07</p>
-                    <p class="mounth">мая</p>
-                    <p class="week">вс</p>
-                </div>
-                <div class="image">
-                    <a href="ticket.html"><img src="Простаковы_230х154.jpg" alt="Простаковы"></a>
-                </div>
                 <div class="aboutSpect">
-                    <a href="ticket.html"><p class="nameSpect">ПРОСТАКОВЫ</p>
-                    <p class="aboutSpect">Современная комедия по мотивам пьесы Д.И. Фонвизина "Недоросль"</p></a>
+                        <p class="nameSpect">ЦВЕТАЕВА</p>
+                    <p class="aboutSpect">Поэтический девичник, посвященный 130-летию со дня рождения поэтессы.</p>
+                    <a href="https://afisha.yandex.ru/kemerovo/theatre_show/tsvetayeva?source=place">
+                        <button>купить билет</button></a>
                 </div>
             </div>
-        </div>
+            </div>
+
+    
+        <div class="footer">
+            <p class="infoOne">касса +7 (3842) 36-53-75</p>
+            <p class="info">Администраторы +7 (3842) 36-36-47</p>
+            <p class="info">Кемерово, ул. Весенняя, 11</p>
         </div>
     </div>
     <script src="main.js"></script>
