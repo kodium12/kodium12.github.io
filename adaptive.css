@@ -1,0 +1,201 @@
+@media (max-width:1280px){
+   .containerMain{
+    width: 100%;
+   }
+    .program{
+    display: flex;
+    padding: 3% 1% 0;
+    }
+    .blockProgram{
+        width: 920px;
+    }
+    header{
+        background-color: #2296a1;
+          display: flex;
+          width: 100%;
+          height: 128px;
+      }
+}
+
+
+@media only screen and (max-width:1024px) {
+    .blockSlider{
+        width: 740px;
+       }
+    .slide img{
+        width: 610px;
+    }
+    .captionText , .whiteText{
+        font-size: 18pt;
+    }
+    .program{
+     margin: 0 auto;
+    }
+    .blockPushkin{
+        max-width: 366px;
+        max-height: 112px;
+    }
+    .blockProgram{
+        width: 850px;
+    }
+    .graficLogo{
+        width: 80%;
+    }
+    header{
+        background-color: #2296a1;
+        display: flex;
+        width: 1024px;
+        height: 128px;
+      }
+
+}
+
+
+@media only screen and (max-width:768px) {
+    .containerMain{
+        width: 768px;
+    }
+    .slide img{
+        width: 510px;
+    }
+    .captionText, .whiteText{
+        font-size: 16pt;
+    }
+    .blockPushkin img{
+        width: 220px;
+    }
+    header{
+        background-color: #2296a1;
+        display: flex;
+        width: 768px;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+      }
+    .blockProgram{
+        width: 708%;
+        margin: 0;
+        padding: 0 10%;
+    }
+    .blockSlider{
+        margin: 0; 
+        padding:0 6%;
+    }
+    .program, .persons{
+        display: block;
+    }
+    .faces{
+        margin: 0 auto;
+    }
+    main{
+        width: 768px;
+    }
+    nav{
+        width: 768px;
+        height: 320px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .blockMenu{
+        display: none;
+        max-height: 0;
+        overflow: hidden;
+        position: absolute;
+        text-align: center;
+        height:120px;
+        width: 708px;
+    }
+    #checkbox:checked ~ .blockMenu{
+        display: block;
+        max-height: 100%;
+    }
+    .labelLine{
+        display: block;
+    }
+    .aboutSpect{
+        width: 550px;
+    }
+    .nameSpect{
+        text-align: center;
+    }
+    .footer{
+        height: 130px;
+    }
+    #program{
+        padding:0 0 4%;
+    }
+    .infoOne, .info{
+        font-size: 14pt;
+    }
+    .history{
+        display: block;
+        padding: 4%;
+    }
+    .theaterImgTwo, .bolhsoiZal, .zvezdaZal, .malZal, .foye{
+        width: 90%;
+    }
+    .faces{
+        width: 700px;
+    }
+}
+
+
+@media only screen and (max-width:480px) {
+    .slide{
+        width: 345px;
+    }
+    .captionText, .whiteText{
+        font-size: 14pt;
+    }
+    .blockPushkin img{
+        width: 37.5%;
+    }
+    header{
+        background-color: #2296a1;
+          display: flex;
+          width: 480px;
+          height: 90px;
+      }
+    .program{
+        margin: 0 auto;
+
+    }
+    .program, .persons{
+        display: block;
+        justify-content: center;
+    }
+    .theaterImgTwo, .bolhsoiZal, .zvezdaZal, .malZal, .foye{
+        width: 70%;
+    }
+    .faces{
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width:320px) {
+
+    .captionText, .whiteText{
+        font-size: 12pt;
+    }
+    .blockPushkin{
+        max-width: 366px;
+    }
+    .blockPushkin img{
+        width: 25%;
+    }
+    header{
+        background-color: #2296a1;
+          display: flex;
+          width: 320px;
+          height: 90px;
+      }
+      .program{
+        margin: 0 auto;
+
+       }
+       
+}
+
+
+
