@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerMain{
+   margin: 0 ;
+   max-width: 1280px;
+}
+body{
+  min-width: 320px;
+}
+.blockMounth{
+  display: flex;
+  justify-content: center;
+}
+.program{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main{
+  max-width: 1280px;
+}
+.persons{
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.dateImage{
+  display: flex;
+  padding:0 4%;
+}
+header{
+  background-color: #2296a1;
+  display: flex;
+  width: 100%;
+  height: 128px;
+}
+.blockPushk{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 366px;
+
+}
+li{
+  list-style:none;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
+nav{
+  padding: 4%;
+}
+.blockMenu{
+  display: flex;
+  background-color: white;
+}
+.blockMenu li{
+  padding: 5px 15px;
+}
+#checkbox{
+  display: none;
+}
+.labelLine{
+  display: none;
+  cursor: pointer;
+}
+.line{
+  display: block;
+  position: relative;
+  color: #2296a1;
+  padding: 0;
+}
+
+.labelLine::before,
+.labelLine::after{
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.labelLine::before{
+  top: 7px;
+}
+.labelLine::after{
+  top: -7px;
+}
+.faces{
+  display: block;
+  margin: 0 auto;
+}
+.border{
+  width: 1280px;
+  height: 10px;
+  background-color: #2296a1;
+}
+.captionText{
+    text-align: center;
+    font-family: Euclid Circular A;
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+.textHistory{
+  font-family: Euclid Circular A;
+  font-size: 20pt;
+  text-align: justify;
+  padding: 0 4% 0 0;
+}
+.textHistory2{
+  font-family: Euclid Circular A;
+  font-size: 20pt;
+  text-align: justify;
+  padding: 4% 4% ;
+}
+.whiteText{
+    color: white;
+    text-align: center;
+    font-family: Euclid Circular A;
+    font-size: 20pt;
+    text-transform: uppercase;
+} 
+a{
+   text-decoration: none;
+ }
+.blockText{
+    margin: 1%;
+}
+.blockPushk img{
+   margin-bottom: 0;
+   max-width: 366px;
+}
+
+.blockMenu a{
+  color: black;
+}
+.blockMenu a:hover{
+  color: #2296a1;
+}
+
+.blockSlider{
+  margin: 0 auto;
+  position:relative;
+  height: 426px;
+  width: 940px;
+  overflow: hidden;
+}
+ .slide {
+   max-width: 100%;
+    transition: 2s ease;
+    position: relative;
+    left: 0;
+    display: flex;
+ }
+ .theaterImgOne{
+  padding:0 4% ;
+ }
+ .theaterImgTwo{
+  padding: 4% 4% 4% 0;
+ }
+.mapsText{
+  padding: 4% ;
+  color:#2296a1;
+  font-family: Euclid Circular A;
+  font-size: 31pt;
+  text-transform: uppercase;
+  text-align: center;
+}
+.history{
+  display: flex;
+}
+ .maps{
+  padding: 0 20% 4%;
+ }
+ .slide {
+    width: 25%;
+    transition: all 0.6s ease;
+ }
+ .lineProgram{
+   margin: 0;
+   padding: 3%;
+ }
+ .number{
+   color:#2296a1;
+    font-family: Euclid Circular A;
+    font-size: 60pt;
+    text-transform: uppercase;
+ }
+ .mounth{
+   color:#2296a1;
+    font-family: Euclid Circular A;
+    font-size: 31pt;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding:0 5%;
+
+ }
+ .week{
+   color:black;
+    font-family: Euclid Circular A;
+    font-size: 14.5pt;
+    text-transform: uppercase;
+ }
+
+ .blockProgram{
+   display: block;
+
+   justify-content: center;
+   max-width: 1280px;
+   margin: 0 auto;
+ }
+ .image{
+   padding: 2% 3%;
+ }
+ .nameSpect{
+  color:#2296a1;
+  font-family: Euclid Circular A;
+  font-size: 31pt;
+  text-transform: uppercase;
+  padding: 2% 0;
+ }
+ .aboutSpect{
+  color:black;
+  font-family: Euclid Circular A;
+  font-size: 12pt;
+  text-transform: uppercase;
+  text-align: justify;
+ }
+ .date{
+  text-align: center;
+ }
+.footer{
+height: 200px;
+background-color: #2296a1;
+padding-top:7%;
+}
+.infoOne{
+  padding: 1% 4% 0 ;
+  font-family: Euclid Circular A;
+  font-size: 18pt;
+  text-transform: uppercase;
+}
+.info{
+  padding: 0 4%;
+  font-family: Euclid Circular A;
+  font-size: 18pt;
+  text-transform: uppercase;
+}
+.halls img{
+  padding: 0 4%;
+}
+.theaterImgTwo{
+  max-width: 807px;
+}
+.bolhsoiZal{
+  max-width: 1166px;
+}
+.zvezdaZal{
+  max-width: 1164px;
+}
+.malZal{
+  max-width: 1166px;
+}
+.foye{
+  max-width: 1166px;
+}
+
+
+.status{
+  font-family: Euclid Circular A;
+  font-size: 18pt;
+  text-transform: uppercase;
+}
+.actorsText{
+  padding: 1% 4% 0 0;
+  font-family: Euclid Circular A;
+  font-size: 18pt;
+  text-align: justify;
+}
+
+button{
+  border: none; 
+  outline: none;
+  background-color: #2296a1;
+  color: #ffff;
+  font-family: Euclid Circular A;
+  font-size: 12pt;
+  padding: 1%;
+  cursor: pointer;
+}
+.btn1, .btn2 {
+  background-color: white;
+}
+.arrow{
+  padding: 1% 0;
+  display: flex;
+  justify-content:space-between;
+}
