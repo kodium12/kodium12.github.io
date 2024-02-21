@@ -16,3 +16,10 @@ btn2.addEventListener('click', function(){
     }
     slide.style.left=offset+'px'
 })
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const scanned = urlParams.get('scanned');
+
+    if (scanned === 'true') {
+        document.getElementById('content').style.display = 'block';
+    }
