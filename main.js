@@ -21,5 +21,5 @@ btn2.addEventListener('click', function(){
     const scanned = urlParams.get('scanned');
 
     if (scanned === 'true') {
-        document.getElementById('#content').style.display = 'block';
+        document.getElementById('content').style.display = 'block';
     }
