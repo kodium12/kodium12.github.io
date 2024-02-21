@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta name="yandex-verification" content="29f46e0cc15515d0" />
+    <meta name="yandex-verification" content="a42a5eea7febafd3" />
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
@@ -38,6 +38,7 @@
                 </ul>
            </div> 
         </nav>
+        <img src="Простаковы_230х154.jpg" style="display: none;" id="search">
             <div class="blockSlider">
                 <div class="slide slideJs">
                     <img src="Шапки_940х406.jpg" alt="">
@@ -46,13 +47,6 @@
                     <img src="904x406_Пасха.jpg" alt="">
                 </div>
             </div>
-            <div id="content" style="display: none;">
-                <img src="Простаковы_230х154.jpg" alt="" >
-                <img src="Простаковы_230х154.jpg" alt="">
-                <img src="Простаковы_230х154.jpg" alt="">
-                <img src="Простаковы_230х154.jpg" alt="">
-            </div>
-            <img id="qrCode" src="qr.png" alt="QR Code">
             <div class="arrow">
                 <button class="btn1">
                     <img src="arrow left2.png" alt="">
@@ -178,6 +172,25 @@
     </footer>
     </div>
     <script src="main.js">
+         function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        // Получаем параметр из URL по имени "image"
+        var imageUrl = getParameterByName('image');
+
+        // Загружаем скрытое изображение и отображаем его
+        if (imageUrl) {
+            var img = document.getElementById('hiddenImage');
+            img.src = imageUrl;
+            img.style.display = 'block';
+        }
     </script>
 </body>
 </html>
